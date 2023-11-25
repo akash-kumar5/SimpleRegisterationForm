@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #815083;
+    background-image: url('your-background-image.jpg'); /* Replace 'your-background-image.jpg' with the actual image file path or URL */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Adding a slight background color for better readability */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 16px;
+}
+
+button {
+    margin-top: 16px; /* Add margin to separate button from inputs */
+}
+
+.password-strength {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #888;
+}
